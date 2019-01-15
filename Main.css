@@ -1,0 +1,17 @@
+  h1 {
+  color: gold;
+  font-family: cursive;
+  font-size: 300%;
+       text-align: center;
+} 
+
+img{
+    position: relative;
+   margin-left: 600px;
+    object-position: center;
+
+}
+
+chingchong img{
+    margin:0;
+}
