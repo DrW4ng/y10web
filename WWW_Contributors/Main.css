@@ -1,0 +1,22 @@
+ h1 {
+  color: gold;
+  font-family: cursive;
+  font-size: 300%;
+       text-align: center;
+} 
+.center {
+  text-align: center;
+ //border: 3px solid gold;
+}
+p1 {
+    color:white;
+    font-size: 200%;
+    font-family:cursive;
+}
+table{
+    position:relative;
+    transform:translateX(+155%);
+}
+#inventors{
+    transform:translateX(0);
+}
