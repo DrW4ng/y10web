@@ -1,0 +1,33 @@
+<html>
+<body>
+<title>Epic!</title>
+
+<canvas id="myCanvas"   width="1410" height="740" style="border:3px solid #c3c3c3;">
+</canvas>
+    
+    
+    
+    
+<script>
+    
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"red");
+grd.addColorStop(2,"white");
+ctx.fillStyle = grd;
+ctx.fillRect(0,0,1410,740);
+ctx.beginPath();
+ctx.arc(600,300,100,0,5*Math.PI);
+ctx.stroke();
+    
+
+    </script>
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
