@@ -1,0 +1,28 @@
+<html>
+    <style>
+        button{
+            color: dodgerblue;
+            padding: 10px;
+            font-family: fantasy;
+            font-size: 800%;
+        }
+        #printhere {
+            background: yellow;
+            color: red;
+            height: 300;
+            font-family: monospace;
+            font-size: 300%;
+        }
+    </style>
+    
+   <div id="printhere"></div>
+    <button onclick="myfunction()">click me
+    </button>
+    
+    <script>
+        function myfunction() {
+            var mydiv = document.getElementById("printhere");
+            mydiv.innerHTML = "This is epic!";
+        }
+    </script>
+</html>
